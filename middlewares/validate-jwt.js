@@ -29,7 +29,6 @@ const validateJWT = (req, res, next) => {
         });
     }
 
-    console.log(token);
     next();
 
 }
